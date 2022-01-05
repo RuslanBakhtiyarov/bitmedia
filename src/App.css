@@ -1,9 +1,10 @@
 .App {
-  text-align: center;
+  font-family:'Montserrat';
 }
 
 .App-logo {
-  font-family: Montserrat;
+  padding-left: 130px;
+  padding-top: 24px;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -11,10 +12,180 @@
   color: #FFFFFF;
 }
 .App-fon{
-  
+  width: 1440px;
+  height: 655px;
+  background: url(./image/Rectangle\ 8.jpg);
+  z-index: 1;
+}
+.App-title{
+  width: 586px;
+  margin: 0;
+  padding-left: 130px;
+  padding-top: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  z-index: 3;
+}
+.App-text{
+  width: 580px;
+  height: 56px;
+  margin: 0;
+  padding-left: 130px;
+  padding-top: 24px;
+  font-size: 20px;
+  line-height: 142%;
+  color: #FFFFFF;
+  z-index: 3;
+}
+.App-buttom{
+  margin-left: 130px;
+  margin-top: 32px;
+  width: 154px;
+  height: 56px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 8px;
+  z-index: 3;
+}
+.App-buttom_text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+  text-align: center;
+  color: #3A80BA;
+  z-index: 3;
 }
 
+.App-left{
+  position: relative;
+  z-index: 2;
+}
+.App-right{
+  position: absolute;
+  z-index: 20;
+  top:  72px;
+  background-image: url(./image/iPhoneX.png);
+  background-repeat: no-repeat;
+  width: 321px;
+  height: 561px;
+  margin-left:  930px;
+}
+.App-info{
+  width: 580px;
+  margin-left: 430px;
+  text-align: center;
+}
+.App-info_text{
+  width: 780px;
+  margin-left: 330px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 142%;
+  text-align: center;
+  color: #7E7E7E;
+}
+.App-cards{
+  display: flex;
+  margin-top: 40px;
+}
+.App-card_1{
+  width: 380px;
+height: 323px;
+margin-left: 130px;
+background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+border-radius: 32px;
+}
+.App-card_2{
+  width: 380px;
+  margin-left:  20px;
+background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+border-radius: 32px;
+}
+.App-card_3{
+  width: 380px;
+height: 323px;
+margin-left: 20px;
+background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+border-radius: 32px;
+}
+.App-card_svg{
+  padding-left: 137px;
+  padding-top: 48px;
+  margin: 0;
+}
+.App-card_title{
+  width: 164px;
+  margin: 0;
+  padding-left: 118px;
+  padding-top: 40px;
 
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+}
+.App-card_text{
+  width: 316px;
+  padding-left: 32px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 142%;
+
+text-align: center;
+
+color: #7E7E7E;
+}
+.footer{
+  margin-top: 128px;
+  width: 1440px;
+height: 183px;
+  background-image: url(./image/Rectangle\ 54.png);
+}
+.App-footer{
+  display: flex;
+  justify-content: space-between;
+
+}
+.App-footer_logo{
+  width: 109px;
+  margin: 0;
+  padding-left: 130px;
+  padding-top: 114px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+.App-footer_text{
+  padding-top: 122px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+  color: #FFFFFF;
+}
+.App-footer_date{
+  padding-top: 122px;
+  padding-right: 130px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+  color: #FFFFFF;
+}
 
 
 
