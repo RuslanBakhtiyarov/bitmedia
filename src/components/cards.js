@@ -1,30 +1,12 @@
-import React from 'react';
-import './App.css';
-import './components/stats'
-<link to='./components/ststs.js'></link> 
+
+import React from "react";
+import App from "../App";
 
 
-function App() {
-  return (
-    <div className="App">
-      <div className='App-fon'>
-        <div className='App-left'>
-        <div className='App-logo'>AppCo</div>
-        <h2 className='App-title'>Brainstorming for desired perfect Usability</h2>
-          <p className='App-text'>Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
-          <button className='App-buttom App-buttom_text'
-            onClick={() => window.open("./components/stats.js")}
-          >
-            Views Stats
-            </button>
-        </div>
-        <div className='App-right'></div>
-      </div>
-      <div>
-        <h1 className='App-info'>Why small <b>business owners love</b> AppCo?</h1>
-        <p className='App-info_text'>Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
-      </div>
-      <div className='App-cards'>
+
+function cards() {
+    return (
+        <div className='App-cards'>
         <div className='App-card_1'>
           <svg className='App-card_svg' width="106" height="96" viewBox="0 0 106 96" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M56.0558 3.27984C65.9342 2.03532 79.6894 -2.52504 88.8887 1.87365C98.4485 6.44475 99.2501 14.2177 102.746 25.6048C106.328 37.2732 107.012 49.7904 104.504 61.8378C101.843 74.6245 94.2446 72.9275 85.22 80.7593C76.1563 88.625 62.7132 97.4379 47.3866 95.8021C20.4536 92.9275 -9.66955 54.7583 2.97238 25.6048C7.92371 14.1866 17.3033 6.66872 31.0815 3.27984C44.429 2.11474 47.7409 4.32739 56.0558 3.27984Z" fill="url(#paint0_linear_1_374)"/>
@@ -75,19 +57,6 @@ function App() {
           <p className='App-card_text'>Realize importance of social proof in customer’s purchase decision.</p>
         </div>
       </div>
-      <footer className='footer'>
-        <div className='App-footer'>
-          <h3 className='App-footer_logo'>AppCo</h3>
-          <p className='App-footer_text'>All rights reserved by ThemeTags</p>
-          <p className='App-footer_date'>Copyrights © 2019. </p>
-        </div>
-        <div>
-        </div>
-      </footer>
-    </div>
-  );
-  
-}
-
-
-export default App;
+    )
+};
+export default cards;

@@ -49,6 +49,7 @@
   background: #FFFFFF;
   border-radius: 8px;
   z-index: 3;
+  cursor: pointer;
 }
 .App-buttom_text{
   font-style: normal;
