@@ -4,9 +4,11 @@ import './stats.css'
 
 function Stats() {
     return (
-        <header className="Stats-header">
+        <div className="Stats">
+            <header className="Stats-header">
             <div className="Stats-header_logo">AppCo</div>
         </header>
+      </div>
     )
 }
 export default Stats;

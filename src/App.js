@@ -12,11 +12,13 @@ function App() {
         <div className='App-logo'>AppCo</div>
         <h2 className='App-title'>Brainstorming for desired perfect Usability</h2>
           <p className='App-text'>Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
+  
           <button className='App-buttom App-buttom_text'
-            onClick={() => window.open("./components/stats.js")}
+            onClick={() => window.useHistory("./components/stats.js")}
           >
             Views Stats
-            </button>
+          </button>
+          
         </div>
         <div className='App-right'></div>
       </div>
