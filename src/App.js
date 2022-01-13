@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './components/stats'
-<link to='./components/ststs.js'></link> 
+
 
 
 function App() {
