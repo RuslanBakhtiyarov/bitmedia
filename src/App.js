@@ -1,7 +1,7 @@
 import React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-import './components/stats'
-import {useHistory} from "react-router-dom";
+import { stats } from './pages/stats';
 
 
 
@@ -13,13 +13,14 @@ function App() {
         <div className='App-logo'>AppCo</div>
         <h2 className='App-title'>Brainstorming for desired perfect Usability</h2>
           <p className='App-text'>Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
-  
-
-          <button className='App-buttom App-buttom_text'
-            onClick={() => window.useHistory("./components/stats.js")}
-          >
+          
+          <a href='/stats' className='App-buttom App-buttom_text'>
             Views Stats
-          </button>
+          </a>
+          <Routes>
+            <Route path="/" element={<App />} />
+            <Route path="/stats" element={<stats/>} />
+          </Routes>
         
 
         </div>
