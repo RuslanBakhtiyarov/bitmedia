@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-import { stats } from './pages/stats';
+import {About} from './pages/About';
 
 
 
@@ -14,12 +14,11 @@ function App() {
         <h2 className='App-title'>Brainstorming for desired perfect Usability</h2>
           <p className='App-text'>Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
           
-          <a href='/stats' className='App-buttom App-buttom_text'>
+          <Link to='/about' className='App-buttom App-buttom_text'>
             Views Stats
-          </a>
+          </Link>
           <Routes>
-            <Route path="/" element={<App />} />
-            <Route path="/stats" element={<stats/>} />
+            <Route path="/About" element={<About/>} />
           </Routes>
         
 

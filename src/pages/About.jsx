@@ -1,9 +1,8 @@
 
 import React from "react";
-
 import './stats.css'
 
-function Stats() {
+function About() {
     return (
         <div className="Stats">
             <header className="Stats-header">
@@ -12,4 +11,4 @@ function Stats() {
       </div>
     )
 }
-export default Stats;
+export default About;
